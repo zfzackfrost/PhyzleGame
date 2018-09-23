@@ -1,4 +1,4 @@
-#include <phyzle/PhyGame.h>
+#include <phyzle/core/PhyGame.h>
 int main(int argc, char *argv[])
 {
 	PhyGame game = PhyGame();

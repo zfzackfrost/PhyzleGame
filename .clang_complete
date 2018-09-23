@@ -1,0 +1,5 @@
+-I./glad/include
+-I./glm
+-I./boost-cmake/boost/boost_1_67_0
+-I./glfw-3.2.1/include
+-I./include

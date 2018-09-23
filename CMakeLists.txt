@@ -17,5 +17,7 @@ include_directories("glad/include" "include" "glm")
 file (GLOB_RECURSE PHYZLE_SOURCES "src/*.cpp" "src/*.c" "src/*.cxx" "glad/src/*.c")
 add_executable(Phyzle ${PHYZLE_SOURCES})
 target_link_libraries(Phyzle PUBLIC Boost::boost)
+target_link_libraries(Phyzle PUBLIC Boost::chrono)
+target_link_libraries(Phyzle PUBLIC Boost::system)
 target_link_libraries(Phyzle PUBLIC glfw)
 
